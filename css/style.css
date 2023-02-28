@@ -29,6 +29,11 @@ p {
   color: black;
 }
 
+span {
+  font-weight: bold;
+  color: darkblue;
+}
+
 img {
   float: right;
 }
