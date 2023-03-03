@@ -33,6 +33,19 @@ span {
   color: darkblue;
 }
 
-img {
-  float: right;
+.demo-list-item {
+  width: 300px;
+}
+
+.column {
+  float: left;
+  width: 30.00%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
