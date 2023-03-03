@@ -1,0 +1,38 @@
+/* Created by: Shyla Oommen
+ * Created on: Feb. 2023
+ * This CSS file defines the style for index.html 
+*/
+
+body {
+  background-color: floralwhite;
+}
+h4 {
+  background-color: rgb(132, 209, 240);
+  text-align: center;
+  border: 2px solid gray;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h5 {
+  text-align: center;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
+  margin-left: 120px;
+  margin-right: 40px;
+  color: black;
+}
+
+span {
+  font-weight: bold;
+  color: darkblue;
+}
+
+img {
+  float: right;
+}
