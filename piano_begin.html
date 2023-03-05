@@ -40,8 +40,9 @@
       <br><br><br>
       <!-- Container for Web Page Content -->
       <h4>So, where did it start?</h4>
-      <p>Well, there were a couple of predecessors to the piano before <span>the 17th century</span>, some more important than others, but they are as follows (the images are in the order of the list):</p>
-      
+      <div class="flex">
+      <p><img src="./images/cat_piano.gif" alt="Cat Pianist">Well, there were a couple of predecessors to the piano before <span>the 17th century</span>, some more important than others, but they are as follows (the images are in the order of the list):</p>
+      </div>
       <!-- Simple list -->
       <center>
       <ul class="demo-list-item mdl-list">
@@ -73,6 +74,16 @@
             <img src="./images/harpsichord.jpeg" alt="Harpsichord">
           </div>
         </div>
+        <script>
+        function myButtonClicked() {
+          alert("...Is Fun!")
+        }
+        </script>
+        <!-- Colored raised button -->
+        <button onclick="myButtonClicked()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Piano...
+        </button>
+        <br><br>
         <!-- MDL Spinner Component with Single Color -->
         <div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
       </center>

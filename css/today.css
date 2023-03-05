@@ -1,6 +1,6 @@
 /* Created by: Shyla Oommen
  * Created on: Mar. 2023
- * This CSS file defines the style for index.html 
+ * This CSS file defines the style for piano_today.html 
 */
 
 body {
@@ -36,5 +36,11 @@ span {
 
 img {
   float: right;
+  width: 225px;
+  height: 150px;
 }
 
+video {
+  width: 320px;
+  height: 240px;
+}
